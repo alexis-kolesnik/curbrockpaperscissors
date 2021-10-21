@@ -16,6 +16,7 @@ gem 'bootsnap', '>= 1.4.4', require: false
 gem 'uri'
 
 group :development, :test do
+  gem 'rspec-rails'
   gem 'pry'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
@@ -27,6 +28,8 @@ group :development do
 end
 
 group :test do
+  gem 'rails-controller-testing'
+  gem 'webmock'
   gem 'capybara', '>= 3.26'
   gem 'selenium-webdriver'
   gem 'webdrivers'
