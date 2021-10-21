@@ -1,24 +1,9 @@
 # README
+To be able enjoy the game:
+* run `rails s` in terminal
+* open http://localhost:3000/ in your browser
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Also you can run tests:
+* run `rspec` in terminal
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The 3rd party API is broken, so always you're winner.
